@@ -183,7 +183,7 @@ export default function Home() {
                   fontFamily: "var(--font-playfair)",
                 }}
               >
-                YahpadSushi !!!
+                YahpadSushi
               </Typography>
             </motion.div>
 
@@ -388,6 +388,111 @@ export default function Home() {
                       </Typography>
                     </Box>
                   </motion.div>
+                </Grid>
+              </Grid>
+            </motion.div>
+          </Container>
+        </Box>
+
+        {/* Section Localisation */}
+        <Box
+          component="section"
+          sx={{
+            py: 10,
+            backgroundColor: "#F8F8F8",
+          }}
+        >
+          <Container>
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true, amount: 0.3 }}
+            >
+              <Typography
+                variant="h2"
+                className="section-title"
+                align="center"
+                sx={{
+                  mb: 4,
+                  fontFamily: "var(--font-playfair)",
+                  fontSize: { xs: "2rem", md: "2.5rem" },
+                }}
+              >
+                Nous Trouver
+              </Typography>
+
+              <Typography variant="body1" align="center" sx={{ mb: 5 }}>
+                YahpadSushi vous accueille au cœur de Paris, dans un cadre
+                élégant et zen. Venez nous rendre visite !
+              </Typography>
+
+              <Grid container spacing={4}>
+                <Grid size={{ xs: 12, md: 4 }}>
+                  <Card
+                    elevation={3}
+                    sx={{
+                      height: "100%",
+                      p: 3,
+                      borderRadius: "8px",
+                    }}
+                  >
+                    <Typography
+                      variant="h5"
+                      sx={{ mb: 2, fontFamily: "var(--font-playfair)" }}
+                    >
+                      Adresse & Contact
+                    </Typography>
+                    <Typography variant="body1" sx={{ mb: 1 }}>
+                      <strong>Adresse :</strong> 28 Rue de Rivoli, 75004 Paris
+                    </Typography>
+                    <Typography variant="body1" sx={{ mb: 1 }}>
+                      <strong>Téléphone :</strong> 01 45 67 89 10
+                    </Typography>
+                    <Typography variant="body1" sx={{ mb: 3 }}>
+                      <strong>Email :</strong> contact@yahpadsushi.com
+                    </Typography>
+
+                    <Typography
+                      variant="h6"
+                      sx={{ mt: 3, mb: 2, fontFamily: "var(--font-playfair)" }}
+                    >
+                      Horaires d&apos;ouverture
+                    </Typography>
+                    <Typography variant="body1" sx={{ mb: 1 }}>
+                      <strong>Lundi - Vendredi :</strong> 11:30 - 14:30 | 18:30
+                      - 22:30
+                    </Typography>
+                    <Typography variant="body1" sx={{ mb: 1 }}>
+                      <strong>Samedi :</strong> 18:00 - 23:00
+                    </Typography>
+                    <Typography variant="body1">
+                      <strong>Dimanche :</strong> 12:00 - 15:00 | 18:30 - 22:00
+                    </Typography>
+                  </Card>
+                </Grid>
+                <Grid size={{ xs: 12, md: 8 }}>
+                  <Box
+                    sx={{
+                      height: "450px",
+                      width: "100%",
+                      position: "relative",
+                      overflow: "hidden",
+                      borderRadius: "8px",
+                      boxShadow: "0 5px 15px rgba(0, 0, 0, 0.1)",
+                    }}
+                  >
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8516462555243!2d2.3507099999999997!3d48.855957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fd10fa77a9%3A0x811a76a4c436cc!2s28%20Rue%20de%20Rivoli%2C%2075004%20Paris!5e0!3m2!1sfr!2sfr!4v1701296456789!5m2!1sfr!2sfr"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      allowFullScreen=""
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Localisation YahpadSushi"
+                    ></iframe>
+                  </Box>
                 </Grid>
               </Grid>
             </motion.div>
