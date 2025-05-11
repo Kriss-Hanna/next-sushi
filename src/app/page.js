@@ -183,7 +183,7 @@ export default function Home() {
                   fontFamily: "var(--font-playfair)",
                 }}
               >
-                YahpadSushi
+                YahpadSushi !!!
               </Typography>
             </motion.div>
 
