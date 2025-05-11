@@ -300,8 +300,8 @@ export default function Home() {
                     </Typography>
                     <Typography variant="body1" sx={{ mb: 3 }}>
                       Fondé en 2010 par le Chef Tanaka Hiroshi, YahpadSushi est
-                      né d'une passion pour la cuisine japonaise authentique et
-                      le respect des traditions culinaires.
+                      né d&apos;une passion pour la cuisine japonaise
+                      authentique et le respect des traditions culinaires.
                     </Typography>
                     <Typography variant="body1" sx={{ mb: 4 }}>
                       Notre restaurant allie techniques traditionnelles et
@@ -561,7 +561,7 @@ export default function Home() {
                             variant="body1"
                             sx={{ mb: 3, fontStyle: "italic" }}
                           >
-                            "{testimonial.comment}"
+                            &quot;{testimonial.comment}&quot;
                           </Typography>
                           <Typography
                             variant="subtitle1"
@@ -607,7 +607,7 @@ export default function Home() {
                   fontSize: { xs: "1.8rem", md: "2.5rem" },
                 }}
               >
-                Vivez l'expérience YahpadSushi
+                Vivez l&apos;expérience YahpadSushi
               </Typography>
               <Typography
                 variant="h6"
