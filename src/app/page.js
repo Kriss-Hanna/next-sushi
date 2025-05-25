@@ -643,16 +643,16 @@ export default function Home() {
                           boxShadow: "0 5px 15px rgba(0, 0, 0, 0.05)",
                           position: "relative",
                           overflow: "visible",
-                          "&::before": {
-                            content: '"\\"',
-                            position: "absolute",
-                            top: "-15px",
-                            left: "20px",
-                            fontSize: "60px",
-                            color: "#D62626",
-                            fontFamily: "Georgia",
-                            opacity: 0.2,
-                          },
+                          // "&::before": {
+                          //   content: '"\\"',
+                          //   position: "absolute",
+                          //   top: "-15px",
+                          //   left: "20px",
+                          //   fontSize: "60px",
+                          //   color: "#D62626",
+                          //   fontFamily: "Georgia",
+                          //   opacity: 0.2,
+                          // },
                         }}
                       >
                         <CardContent>
